@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.Products {
+  text-align: center;
+ width: 90%;
+ height: 90%;
+ display : flex ; 
+ flex-direction: row;
+ justify-content:flex-start ; 
+ 
+ margin: 0 auto;
+ overflow: auto;
+ scrollbar-color: red orange;
+ scrollbar-width: thin;
+}
+
+#racine {
+text-align: center; 
+ flex-direction: column;
+
+}

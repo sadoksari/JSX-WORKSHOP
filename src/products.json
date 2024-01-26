@@ -1,0 +1,12 @@
+[
+ { "name": "Dell Inspiron"  , "price": "2 950 DT","mark":"Dell"   , "description": "Dell Inspiron 3500-G3 I7"   , "src":"./images/PC_DELL_01.jpeg"   , "alt":"Pc Dell Inspiron"   }  ,
+ { "name": "Portable HP"    , "price": "1 385 DT","mark":"HP"     , "description": "HP 15-FC0017NK AMD RYZEN 5" , "src":"./images/PC_DELL_02.jpeg"   , "alt":"Pc HP 15-FC0017NK"  }  ,
+ { "name": "Portable HP"    , "price": "2 499 DT","mark":"HP"     , "description": "HP 15-DW3067NK I7 11GÉN"    , "src":"./images/PC_DELL_03.jpeg"   , "alt":"Pc HP 15-DW3067NK I7"  }  ,
+ { "name": "Portable LENOVO", "price": "2 449 DT","mark":"LENOVO" , "description": "Gaming 3 i5 11ème Gén"      , "src":"./images/PC_DELL_04.jpeg"   , "alt":"Pc Portable LENOVO Gaming 3 i5"  }  ,
+ { "name": "Dell Inspiron"  , "price": "2 950 DT","mark":"Dell"   , "description": "Dell Inspiron 3500-G3 I7"   , "src":"./images/PC_DELL_01.jpeg"   , "alt":"Pc Dell Inspiron"   }  ,
+ { "name": "Portable HP"    , "price": "1 385 DT","mark":"HP"     , "description": "HP 15-FC0017NK AMD RYZEN 5" , "src":"./images/PC_DELL_02.jpeg"   , "alt":"Pc HP 15-FC0017NK"  }  ,
+ { "name": "Portable HP"    , "price": "2 499 DT","mark":"HP"     , "description": "HP 15-DW3067NK I7 11GÉN"    , "src":"./images/PC_DELL_03.jpeg"   , "alt":"Pc HP 15-DW3067NK I7"  }  ,
+ { "name": "Portable LENOVO", "price": "2 449 DT","mark":"LENOVO" , "description": "Gaming 3 i5 11ème Gén"      , "src":"./images/PC_DELL_04.jpeg"   , "alt":"Pc Portable LENOVO Gaming 3 i5"  }  
+] 
+
+ 

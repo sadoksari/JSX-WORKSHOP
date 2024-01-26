@@ -1,25 +1,61 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './products.json' ;
+import React  from 'react' ;
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Name from "./Name" ;
+import Image from "./Image" ;
+import Price from "./Price" ;
+import Description from './Description';
 
-function App() {
+import { Button , Card } from 'react-bootstrap' ;
+
+
+class  App extends React.Component {
+  constructor (props) {
+    super(props) ;
+    
+   }
+
+handleButton(markk){
+  alert( `The product mark is: ${markk}`);
+
+}
+  render() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div id="racine">  
+       <h1> JSX WORKSHOP </h1>
+      <div className="Products">
+            
+             {data.map((item) => (
+
+                 <div id={item.name} style={{display:'flex' }}>      
+
+                  <Card style={{margin:'15px' , width : '20rem' , height:450}} >
+                  
+                  <Card.Body>
+
+                    <Image imageUrl={item.src} alt={item.alt}/>                    
+                    <Name name={item.name}/>
+                    <Price price={item.price}  /> 
+                    <Description description={item.description} />
+            
+                    <Button onClick={() => this.handleButton(`${item.mark}`)} variante="primary" > Clic me </Button>                   
+
+                  </Card.Body>
+                  
+                </Card>
+            </div>
+
+            ))}
+
+      </div>
+
+</div>
   );
+ }
+
 }
 
-export default App;
+
+export default App ;
